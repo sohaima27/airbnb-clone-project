@@ -39,3 +39,22 @@ Ensures the quality of the software through rigorous testing, identifying bugs, 
 
 These roles collaborate closely to deliver a robust, scalable, and secure application.
 
+
+## Technology Stack
+
+This project uses the following technologies:
+
+- **Django**: A high-level Python web framework used for building the backend and creating RESTful APIs.
+- **Django REST Framework**: A toolkit to build Web APIs easily and efficiently with Django.
+- **PostgreSQL**: A powerful relational database system used to store and manage application data.
+- **GraphQL**: A flexible query language and runtime for APIs, allowing clients to request exactly the data they need.
+- **Celery**: An asynchronous task queue used for handling background tasks like sending notifications or processing payments.
+- **Redis**: An in-memory data structure store used for caching and session management to improve performance.
+- **Docker**: A containerization platform that helps in creating consistent development and deployment environments.
+- **CI/CD Pipelines**: Automated workflows for continuous integration and continuous deployment, ensuring efficient testing and delivery of code changes.
+
+---
+
+These technologies work together to build a scalable, efficient, and maintainable Airbnb Clone backend.
+
+

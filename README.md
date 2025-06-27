@@ -19,7 +19,7 @@ This is a full-stack web development project aimed at replicating the core featu
 - Git & GitHub
 - CI/CD with GitHub Actions
 - 
-- ## Team Roles
+  ## Team Roles
 
 In this project, several key roles contribute to its success. Below are the main roles and their responsibilities:
 

@@ -131,5 +131,27 @@ Users can leave ratings and reviews for properties they have stayed in. This fea
 To ensure fast and efficient access to data, the system implements indexing and caching strategies. This improves the overall performance and scalability of the application.
 
 
+## API Security
+
+La sécurité des API backend est essentielle pour protéger les données des utilisateurs et assurer la fiabilité de l'application. Voici les principales mesures de sécurité qui seront mises en place :
+
+- **Authentification** : Vérification de l'identité des utilisateurs via des mécanismes tels que les tokens JWT ou OAuth. Cela garantit que seules les personnes autorisées peuvent accéder aux fonctionnalités du système.
+  
+- **Autorisation** : Contrôle des accès en fonction des rôles et permissions des utilisateurs. Par exemple, un utilisateur normal ne peut pas modifier les propriétés ou les réservations d'autres utilisateurs.
+  
+- **Limitation de débit (Rate Limiting)** : Protection contre les attaques par déni de service (DoS) en limitant le nombre de requêtes qu'un utilisateur peut faire dans un certain laps de temps.
+  
+- **Chiffrement des données** : Utilisation de HTTPS pour sécuriser la transmission des données entre le client et le serveur, protégeant ainsi les informations sensibles comme les mots de passe et les données de paiement.
+  
+- **Validation et sanitation des entrées** : Vérification et nettoyage des données reçues pour éviter les attaques telles que l'injection SQL ou les attaques XSS.
+
+Ces mesures sont cruciales pour :
+
+- **Protéger les données des utilisateurs** : Empêcher l'accès non autorisé à des informations personnelles sensibles.
+- **Sécuriser les transactions de paiement** : Assurer que les paiements sont traités de manière sûre et éviter les fraudes.
+- **Maintenir l'intégrité et la disponibilité du service** : Prévenir les abus, les erreurs et les attaques qui pourraient perturber le fonctionnement de l'application.
+
+
+
 
 

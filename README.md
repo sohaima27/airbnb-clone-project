@@ -110,5 +110,26 @@ The database for this project is designed to manage key entities and their relat
 
 This design ensures data consistency and supports the core functionalities of the Airbnb Clone project.
 
+## Feature Breakdown
+
+### User Management
+This feature allows users to register, authenticate, and manage their profiles securely. It ensures that only authorized users can access and interact with the system.
+
+### Property Management
+Users can create, update, and delete property listings. This feature enables hosts to showcase their properties with detailed descriptions, photos, and location information.
+
+### Booking System
+The booking system allows users to search for properties and make reservations for specific dates. It manages booking details such as check-in and check-out, ensuring smooth scheduling.
+
+### Payment Processing
+This feature handles all payment transactions related to bookings. It securely processes payments and keeps track of transaction statuses to ensure reliable financial operations.
+
+### Review System
+Users can leave ratings and reviews for properties they have stayed in. This feature promotes transparency and helps future guests make informed decisions.
+
+### Data Optimization
+To ensure fast and efficient access to data, the system implements indexing and caching strategies. This improves the overall performance and scalability of the application.
+
+
 
 

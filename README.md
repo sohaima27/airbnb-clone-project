@@ -151,6 +151,15 @@ Ces mesures sont cruciales pour :
 - **Sécuriser les transactions de paiement** : Assurer que les paiements sont traités de manière sûre et éviter les fraudes.
 - **Maintenir l'intégrité et la disponibilité du service** : Prévenir les abus, les erreurs et les attaques qui pourraient perturber le fonctionnement de l'application.
 
+  ## CI/CD Pipeline
+
+Les pipelines CI/CD (Intégration Continue / Déploiement Continu) automatisent le processus de développement, de test et de déploiement du code. Ils permettent de s'assurer que chaque modification apportée au code est automatiquement testée et déployée, ce qui réduit les erreurs humaines et accélère la livraison des nouvelles fonctionnalités.
+
+Pour ce projet, l'utilisation d'outils comme **GitHub Actions** pour l'automatisation des tests et du déploiement, ainsi que **Docker** pour créer des environnements de développement et de production cohérents, est prévue. Ces outils garantissent une livraison rapide et fiable du logiciel, tout en facilitant la collaboration entre les membres de l'équipe.
+
+Grâce au CI/CD, nous pouvons détecter rapidement les bugs, maintenir une qualité de code élevée et déployer les mises à jour sans interruption pour les utilisateurs.
+
+
 
 
 
